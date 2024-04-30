@@ -238,8 +238,7 @@
   font-weight: 700;
   width: inherit;
 }
-.decoration__zone {
-}
+
 .decoration__zone::before {
   content: "";
   position: absolute;
