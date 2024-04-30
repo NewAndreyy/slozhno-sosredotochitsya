@@ -4,7 +4,6 @@
   background: var(--bg-imag);
   background-repeat: no-repeat;
   background-position: top;
-  background-size: 1024px;
   font-family: var(--font-family);
   background-color: var(--bg-color);
   background-size: auto 768px;
@@ -341,13 +340,12 @@
   .picture_container {
     display: flex;
     flex-direction: column;
+    gap: 10px;
   }
   .picture__title {
     margin-block-end: 10px;
   }
-  .picture_container {
-    gap: 10px;
-  }
+
   .section__title {
     width: 100%;
   }
