@@ -393,7 +393,7 @@
 
   .footer {
     padding: 0 10px;
-    min-height: 100vh;
+    height: 100vh;
     max-height: 688px;
   }
   .decoration__zone::before {
