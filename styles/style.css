@@ -315,8 +315,8 @@
     gap: 10px;
   }
   .footer {
-    max-height: 100vh;
-    min-height: 1024px;
+    height: 100vh;
+    min-block-size: 1024px;
   }
   .footer__container {
     padding: 154px 20px;
@@ -332,7 +332,7 @@
   .header {
     padding: 0 10px;
     margin: 0;
-    max-height: 688px;
+    max-block-size: 688px;
   }
   .header__theme-menu {
     padding-block-start: 74px;
@@ -392,6 +392,8 @@
 
   .footer {
     padding: 0 10px;
+    min-height: 100vh;
+    max-height: 688px;
   }
   .decoration__zone::before {
     left: 10px;
