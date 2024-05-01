@@ -314,6 +314,10 @@
   .section__article-list-three {
     gap: 10px;
   }
+  .footer {
+    max-height: 100vh;
+    min-height: 1024px;
+  }
   .footer__container {
     padding: 154px 20px;
   }
@@ -321,7 +325,7 @@
     bottom: -138px;
   }
   .decoration__zone::before {
-    bottom: -259px;
+    bottom: 302px;
   }
 }
 @media (width >= 375px) and (width <= 767px) {
