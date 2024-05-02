@@ -357,7 +357,7 @@
     width: 100%;
   }
   .main {
-    margin-block-start: 21px;
+    margin: 23px 0;
     padding: 0 10px;
     gap: 40px;
     line-height: 130%;
@@ -405,14 +405,14 @@
   }
   .decoration__zone::before {
     left: 10px;
-    bottom: 385px;
+    bottom: 15px;
   }
   .decoration__zone::after {
     right: 10px;
-    top: -9px;
+    top: 25px;
   }
   .footer__container {
-    padding-block-end: 54px;
+    padding-block-start: 11px;
   }
   .footer__title {
     font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
