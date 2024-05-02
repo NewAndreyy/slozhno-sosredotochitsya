@@ -300,6 +300,7 @@
   }
   .section {
     grid-template-columns: 236px 1fr;
+    margin-block-end: 0;
   }
   .section__title {
     width: 100%;
@@ -326,14 +327,12 @@
     height: 100vh;
     min-block-size: 1024px;
   }
-  .footer__container {
-    padding: 154px 20px;
-  }
+
   .decorated-zone::after {
     bottom: -138px;
   }
   .decoration__zone::before {
-    bottom: 302px;
+    bottom: 20px;
   }
 }
 @media (width >= 375px) and (width <= 767px) {
@@ -402,18 +401,18 @@
     padding: 0 10px;
     height: 100vh;
     max-height: 688px;
+    min-block-size: 375px;
   }
   .decoration__zone::before {
     left: 10px;
-    bottom: -248px;
+    bottom: 385px;
   }
   .decoration__zone::after {
     right: 10px;
-    top: -248px;
+    top: -9px;
   }
   .footer__container {
-    margin-block-start: 298px;
-    padding: 0;
+    padding-block-end: 54px;
   }
   .footer__title {
     font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
