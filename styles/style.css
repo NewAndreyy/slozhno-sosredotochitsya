@@ -163,7 +163,7 @@
 
 .section__article-list_wrap {
   display: grid;
-  /*grid-template-columns: repeat(3, 315px);*/
+
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
@@ -226,15 +226,17 @@
 }
 .footer {
   position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   height: 100vh;
-  min-height: 768px;
-  margin: 0 auto;
+  display: grid;
+  justify-content: center;
+  align-items: start;
+  height: 100vh;
+  max-height: 768px;
+  grid-template-rows: 1fr min-content 1fr;
 }
 .footer__container {
-  padding-block-end: 55px;
+  grid-row-start: 2;
+  padding-block-start: 118px;
 }
 .footer__title {
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
@@ -252,7 +254,7 @@
   border-left: 1px solid var(--decor-color);
   border-bottom: 1px solid var(--decor-color);
   left: 20px;
-  bottom: 135px;
+  bottom: -41px;
 }
 .decoration__zone::after {
   content: "";
