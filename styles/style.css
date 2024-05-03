@@ -119,6 +119,7 @@
   max-inline-size: 1024px;
   gap: 70px;
   margin-block-end: 60px;
+  margin-block-start: 60px;
   padding: 0 20px;
 }
 
@@ -287,10 +288,10 @@
   .header__title_container {
     gap: 135px;
 
-    padding-block-start: 145px;
+    padding-block-start: 143px;
   }
   .header__theme-menu {
-    padding-block-start: 72px;
+    padding-block-start: 191px;
   }
   .header__theme-menu-list {
     align-items: end;
@@ -356,7 +357,8 @@
     width: 100%;
   }
   .main {
-    margin: 23px 0;
+    margin-block-start: 20px;
+    margin-block-end: 28px;
     padding: 0 10px;
     gap: 40px;
     line-height: 130%;
