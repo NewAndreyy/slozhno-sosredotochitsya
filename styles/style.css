@@ -284,6 +284,7 @@
   }
   .main {
     margin-block-start: 111px;
+    margin-block-end: 62px;
   }
   .header__title_container {
     gap: 135px;
