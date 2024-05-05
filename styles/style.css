@@ -28,7 +28,6 @@
   position: absolute;
   color: var(--rec-color);
   text-transform: uppercase;
-  color: var(--rec-color);
   top: 21px;
   right: 49px;
 }
@@ -125,7 +124,7 @@
 .section__title {
   font-size: 18px;
   line-height: 130%;
-  font-size: 18px;
+
   font-weight: 700;
   color: var(--section-title-color);
 }
