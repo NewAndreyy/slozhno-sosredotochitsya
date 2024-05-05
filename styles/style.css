@@ -28,7 +28,7 @@
   position: absolute;
   color: var(--rec-color);
   text-transform: uppercase;
-  color: var(--accent-color);
+  color: var(--rec-color);
   top: 21px;
   right: 49px;
 }
@@ -39,13 +39,12 @@
   height: 10px;
   margin: -5px -20px 0 0;
   border-radius: 50%;
-  box-shadow: 0 0 4px 2px var(--accent-color);
-  background-color: var(--accent-color);
+  box-shadow: 0 0 4px 2px var(--rec-color);
+  background-color: var(--rec-color);
   top: 50%;
   right: 0;
 }
-.header__theme-menu {
-}
+
 .header__theme-menu-list {
   display: flex;
   justify-content: center;
@@ -66,10 +65,6 @@
   border: 1px solid var(--accent-color);
   pointer-events: none;
 }
-.header__theme-menu-button_type_auto {
-}
-.header__theme-menu-button_type_dark {
-}
 
 .header__theme-menu-button:hover {
   border: 1px solid var(--hover-color);
@@ -80,7 +75,7 @@
 .header__title {
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   color: var(--title-color);
-  text-shadow: 4px 4px 0 var(--shadow-color);
+  text-shadow: 4px 4px 0 var(--title-shadow);
   margin-inline-start: -20px;
   line-height: 83%;
 }
@@ -139,8 +134,7 @@
   flex-direction: column;
   gap: 20px;
 }
-.section__article {
-}
+
 .article__title {
   font-weight: 700;
   font-size: 18px;
@@ -154,8 +148,7 @@
   font-weight: 400;
   line-height: 130%;
 }
-.stylish__text {
-}
+
 .section:nth-child(2) {
   display: grid;
   gap: 20px;
@@ -220,7 +213,7 @@
 .footer__title {
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   color: var(--title-color);
-  text-shadow: 2px 2px 0px var(--shadow-color);
+  text-shadow: 2px 2px 0px var(--title-shadow);
   font-weight: 700;
   justify-self: center;
   grid-row: 2;
@@ -245,6 +238,10 @@
   left: 20px;
   bottom: 20px;
 }
+.link {
+  text-shadow: 3px 3px 0px var(--shadow-color);
+  text-decoration: none;
+}
 
 @media (width <= 768px) {
   .header__theme-menu-list {
@@ -267,6 +264,9 @@
   }
   .section:nth-child(2) .section__article-list {
     grid-template-columns: none;
+  }
+  .footer__title .header__title {
+    box-shadow: var(--title-shadow-2);
   }
 }
 @media (width <= 375px) {

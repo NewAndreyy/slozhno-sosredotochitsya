@@ -1,3 +1,16 @@
-:root.page.theme_dark {
- 
+.page.theme_dark {
+  --font-family: "IBM Plex mono", sans-serif;
+  --bg-imag: url(../images/cover-image-dark.png);
+  --bg-color: #000028;
+  --bg-color-2: #ff0070;
+  --title-color: #db00ff;
+  --accent-color: #ff0070;
+  --shadow-color: #ff0070;
+  --title-shadow: #ff0070;
+  --subtitle-color: #000028;
+  --section-title-color: #ff0070;
+  --text-color: #f1b2ce;
+  --hover-color: rgba(255, 0, 112, 0.4);
+  --block-indentation: 60px;
+  --rec-color: #ff0070;
 }
