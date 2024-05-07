@@ -171,7 +171,7 @@
 .section:nth-child(2) .section__article-list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  /*gap: 20px;*/
+  gap: 20px;
 }
 
 .section:nth-child(2) .section__title {
@@ -288,6 +288,7 @@
 
   .section:nth-child(2) .section__article-list {
     grid-template-columns: none;
+    gap: 0;
   }
 
   .footer__title .header__title {
