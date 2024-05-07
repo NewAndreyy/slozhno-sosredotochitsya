@@ -12,5 +12,6 @@
   --section-title-color: #ff0070;
   --text-color: #f1b2ce;
   --hover-color: rgba(255, 0, 112, 0.4);
+  --hover-link-color: #f1b2ce;
   --block-indentation: 60px;
 }
